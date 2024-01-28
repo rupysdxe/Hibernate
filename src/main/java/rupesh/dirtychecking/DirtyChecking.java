@@ -1,3 +1,5 @@
+package rupesh.dirtychecking;
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -8,7 +10,7 @@ import rupesh.entity.User;
  * @author Rupesh Dangi
  * @date: 2024/01/27 16/43
  */
-public class App {
+public class DirtyChecking {
     public static void main(String[] args) {
         try {
             SessionFactory sessionFactory = HibernateConfig.getSessionFactory();
